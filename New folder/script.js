@@ -89,7 +89,7 @@ function closePopup() {
 showService(currentIndex);
 
 // Auto rotate every 30 seconds
-setInterval(rotateServices, 100000);
+setInterval(rotateServices, 1000);
 
 // Add swipe support
 const popup = document.getElementById("servicePopup");
